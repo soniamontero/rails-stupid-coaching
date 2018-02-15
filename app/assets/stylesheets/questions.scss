@@ -1,0 +1,62 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  padding-left: 8px;
+  size: 45px;
+  font-weight: bold;
+  font-family: 'Dosis', sans-serif;
+}
+
+h1 {
+  padding-left: 8px;
+}
+
+form {
+  padding-left: 12px
+}
+
+#input {
+  padding: 17px 60px;
+}
+
+#btn {
+  padding: 15px 15px;
+  background-color: #12b782;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 5px
+}
+
+.query {
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #f7f7f7;
+  padding: 10px;
+  margin: 5px 5px;
+  width: 350px;
+
+}
+
+.answer {
+  background-color: #e6ffe6;
+  padding: 10px;
+  margin: 5px 5px;
+  width: 350px;
+  font-size: 20px;
+}
+
+.you {
+  text-transform: uppercase;
+  font-family: Dosis, sans-serif;
+}
+.coach {
+  text-transform: uppercase;
+  font-family: Dosis, sans-serif;
+}
+.anotherquestion {
+
+}

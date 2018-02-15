@@ -1,0 +1,16 @@
+<% if @query %>
+  <ul>
+    <div class="query">
+      <p>" <%= @query %> "</p>
+      <p class="you"> - You </p>
+    </div>
+
+    <div class="answer">
+      <p>" <%= @answer %> "</p>
+      <p class="coach"> - The coach </p>
+    </div>
+  </ul>
+<% end %>
+<div class="anotherquestion">
+  <%= link_to "Want to ask another question?", ask_path %>
+</div>
